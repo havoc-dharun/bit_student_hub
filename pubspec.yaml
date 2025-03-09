@@ -1,0 +1,32 @@
+name: bit_student_hub
+description: A student hub for BIT
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.14
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/wiki.png
+    - assets/dashboard.png
+    - assets/ps_portal.png
+    - assets/camps.png
+    - assets/google_classroom.png
+    - assets/placement.png
