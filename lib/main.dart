@@ -33,8 +33,8 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _passwordController = TextEditingController();
 
   void _login() {
-    if (_usernameController.text == "admin" &&
-        _passwordController.text == "password") {
+    if (_usernameController.text == "sms" &&
+        _passwordController.text == "bitsathy") {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => const HomePage()),
@@ -126,6 +126,12 @@ class HomePage extends StatelessWidget {
             image: "assets/placement.png",
             url:
                 "https://docs.google.com/spreadsheets/d/1sAM_8bfU-pK3HNochOuDnNmQ_DudgrJtCtaoH355K8c",
+          ),
+          // 🔹 NEW LIBRARY INVENTORY MENU ADDED
+          PortalTile(
+            title: "Library Inventory",
+            image: "assets/library.png",
+            url: "https://smslibrarymanagement.netlify.app/",
           ),
         ],
       ),

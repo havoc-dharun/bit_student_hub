@@ -1,18 +1,17 @@
 name: bit_student_hub
-description: A student hub for BIT
+description: A student hub application for BIT students.
+publish_to: 'none' # Prevents accidental publishing to pub.dev
 
-publish_to: 'none' 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=2.18.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^6.1.14
-  cupertino_icons: ^1.0.6
   google_fonts: ^6.1.0
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +29,4 @@ flutter:
     - assets/camps.png
     - assets/google_classroom.png
     - assets/placement.png
+    - assets/library.png  # ✅ Added Library Inventory asset
